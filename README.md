@@ -4,6 +4,10 @@ Small, dependency-free Unicode widgets from [Font4Social](https://font4social.co
 
 These widgets are intentionally lightweight. They do not include the full Font4Social database, but they are useful for quick copy-paste interactions and link back to the full tools.
 
+**Full tool suite:** [Open Font4Social Unicode Text Generator](https://font4social.com/) for the complete font generator, emoji copy library, invisible character tool, PNG sticker maker, and social QR code generator.
+
+**Live demo:** [hedkon.github.io/font4social-widgets](https://hedkon.github.io/font4social-widgets/)
+
 ## Widgets
 
 - **Fancy Text Preview**: type text and preview a few Unicode styles.
@@ -48,4 +52,3 @@ Open [`demo/index.html`](demo/index.html) in your browser.
 ## License
 
 MIT
-

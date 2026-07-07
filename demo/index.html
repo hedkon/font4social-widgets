@@ -27,17 +27,84 @@
 
     .intro {
       max-width: 680px;
-      margin-bottom: 28px;
+      margin-bottom: 18px;
       color: #586070;
       font-size: 18px;
       line-height: 1.55;
+    }
+
+    .site-cta {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+      margin: 0 0 30px;
+      padding: 18px;
+      border: 3px solid #03040a;
+      border-radius: 18px;
+      background: #101426;
+      color: #f7f7ff;
+      box-shadow: 0 10px 0 rgba(0, 0, 0, 0.18);
+    }
+
+    .site-cta strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 18px;
+    }
+
+    .site-cta span {
+      color: #aeb7d0;
+      line-height: 1.45;
+    }
+
+    .site-cta a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 18px;
+      border: 3px solid #03040a;
+      border-radius: 14px;
+      background: #ffe34d;
+      color: #121522;
+      font-weight: 900;
+      text-decoration: none;
+      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.35);
+    }
+
+    .site-cta a:hover {
+      transform: translateY(-1px);
+    }
+
+    .link-highlight {
+      color: #0a57d8;
+      font-weight: 900;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 20px;
+      }
+
+      .site-cta {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
   <main>
     <h1>Font4Social Unicode Widgets</h1>
-    <p class="intro">Tiny copy-paste widgets you can embed anywhere. For the full generator, emoji library, invisible text tool, and QR tools, visit <a href="https://font4social.com/">Font4Social</a>.</p>
+    <p class="intro">Tiny copy-paste widgets you can embed anywhere. This demo is intentionally small; the full tools live on <a class="link-highlight" href="https://font4social.com/">Font4Social</a>.</p>
+
+    <section class="site-cta" aria-label="Open Font4Social">
+      <div>
+        <strong>Need the full Unicode toolkit?</strong>
+        <span>Open Font4Social for the complete text generator, invisible character tool, emoji copy library, PNG stickers, and social QR code maker.</span>
+      </div>
+      <a href="https://font4social.com/" target="_blank" rel="noopener noreferrer">Open Font4Social</a>
+    </section>
 
     <div data-f4s-widget="fancy-text" data-text="Creator Style"></div>
 
